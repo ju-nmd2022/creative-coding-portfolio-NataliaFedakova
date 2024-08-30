@@ -1,7 +1,62 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/squares.js",
+    "name": "Recreation of an artwork by Herbert W. Franke",
+    "description": "I chose to start by recreating this artwork by Herbert W. Franke because its minimalist design made it a fitting choice for my first project. In this artwork, I use a for loop and randomization to generate squares at random positions and sizes on the canvas."
+  },
+  {
+    "file": "experiments/squares1.js",
+    "name": "Recreation of an artwork by Herbert W. Franke. Variation 1",
+    "description": "In the first variation of this artwork I decided to add a random stroke color to make the design more vivid."
+  },
+  {
+    "file": "experiments/squares2.js",
+    "name": "Recreation of an artwork by Herbert W. Franke. Variation 2",
+    "description": "For the second variation, I use push() and pop() along with translate() and rotate() to apply random rotations to squares."
+  },
+  {
+    "file": "experiments/squares3.js",
+    "name": "Recreation of an artwork by Herbert W. Franke. Variation 3",
+    "description": "In the third variation, I decided to utilize a counter to progressively influence the position of the squares, creating a dynamic effect where the squares shift over time."
+  },
+  {
+    "file": "experiments/perlinnoise.js",
+    "name": "Recreation of an artwork by Peter Saville",
+    "description": "I chose to recreate this artwork by Peter Saville because it graces the cover of a Joy Division album I like. Additionally, I wanted to recreate something more complicated than the first artwork. In this artwork, I use a for loop with Perlin noise to generate wavy lines with greater amplitude in the center and diminish towards the edges."
+  },
+  {
+    "file": "experiments/perlinnoise1.js",
+    "name": "Recreation of an artwork by Peter Saville. Variation 1",
+    "description": "In the first variation of this artwork I decided to add a counter to add a sense of movement "
+  },
+  {
+    "file": "experiments/perlinnoise2.js",
+    "name": "Recreation of an artwork by Peter Saville. Variation 2",
+    "description": "In the second variation of this artwork I decided to add a random stroke color to make the design more vivid."
+  },
+  {
+    "file": "experiments/perlinnoise3.js",
+    "name": "Recreation of an artwork by Peter Saville. Variation 3",
+    "description": "In the third variation, I added a random stroke weight."
+  },
+  {
+    "file": "experiments/rectangles.js",
+    "name": "Recreation of an artwork by Vera Molnár",
+    "description": "In this artwork, I recreated a design by Vera Molnár by arranging multiple layers of rectangles in a grid pattern. Each rectangle's size decreases progressively with each layer, and they are filled with random shades of magenta. "
+  },
+  {
+    "file": "experiments/rectangles1.js",
+    "name": "Recreation of an artwork by Vera Molnár. Variation 1.",
+    "description": "In the first variation of this artwork, I added transparency to the fill color of each rectangle by incorporating an alpha value."
+  },
+  {
+    "file": "experiments/rectangles2.js",
+    "name": "Recreation of an artwork by Vera Molnár. Variation 2.",
+    "description": "In the second variation of this artwork, I decided to remove the noLoop() function to give the piece a psychedelic effect through continuous animation."
+  },
+  {
+    "file": "experiments/rectangles3.js",
+    "name": "Recreation of an artwork by Vera Molnár. Variation 3.",
+    "description": "In the third variation of this artwork, I decided apply a random rotation to each rectangle by using push() and pop() to isolate the transformation, which results in rectangles being drawn at different angles around their center."
   }
 ]
