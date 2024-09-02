@@ -10,8 +10,8 @@ function draw() {
   strokeWeight(2);
   background(255, 255, 255);
 
-  const gridWidth = width * 1;
-  const gridHeight = height * 1;
+  const gridWidth = width;
+  const gridHeight = height;
   const maxSquares = 400;
   const minSize = 10;
   const maxSize = 40;
@@ -20,8 +20,8 @@ function draw() {
 
   for (let i = 0; i < maxSquares; i++) {
     let size = random(minSize, maxSize);
-    let x = random(gridWidth - size, counter);
-    let y = random(gridHeight - size, counter);
+    let x = random(gridWidth - size);
+    let y = random(gridHeight - size);
     
       push();
       translate(x + size / 2, y + size / 2);

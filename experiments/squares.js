@@ -9,8 +9,8 @@ function draw() {
   strokeWeight(2);
   background(255, 255, 255);
 
-  const gridWidth = width * 1;
-  const gridHeight = height * 1;
+  const gridWidth = width;
+  const gridHeight = height;
   const maxSquares = 400;
   const minSize = 10;
   const maxSize = 40; 

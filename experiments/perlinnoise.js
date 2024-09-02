@@ -15,7 +15,6 @@ function draw() {
   const waveRangeStart = 200;   
   const waveRangeEnd = 400;
 
-  noiseSeed();
 // next lines of code were created with chatGPT
   for (let row = 0; row < numRows; row++) {
       let yOffset = originalY + row * lineSpacing;
