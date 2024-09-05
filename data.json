@@ -1,5 +1,20 @@
 [
   {
+    "file": "experiments/franke.js",
+    "name": "Recreation of an artwork by Herbert W. Franke",
+    "description": "This piece recreates Herbert W. Franke's minimalist artwork with a dynamic twist. It incorporates physics simulation to animate squares that bounce around the canvas. Each square is influenced by gravity and friction, giving it a natural movement effect. The squares are randomly sized and colored."
+  },
+  {
+    "file": "experiments/franke1.js",
+    "name": "Recreation of an artwork by Herbert W. Franke. Variation 1",
+    "description": "This piece is a recreation inspired by Herbert W. Franke's artwork, featuring a particle system that continuously evolves. Each particle, represented as a square, starts from the center of the canvas and moves outward."
+  },
+  {
+    "file": "experiments/franke2.js",
+    "name": "Recreation of an artwork by Herbert W. Franke. Variation 2",
+    "description": "This piece is a recreaction inspired by Herbert W Franke's artwork. It features static cherries and randomly generated squares that move and fade over time."
+  },
+  {
     "file": "experiments/squares.js",
     "name": "Recreation of an artwork by Herbert W. Franke",
     "description": "I chose to start by recreating this artwork by Herbert W. Franke because its minimalist design made it a fitting choice for my first project. In this artwork, I use a for loop and randomization to generate squares at random positions and sizes on the canvas."
