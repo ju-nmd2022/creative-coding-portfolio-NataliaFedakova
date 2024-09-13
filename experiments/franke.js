@@ -62,14 +62,7 @@ class Element {
       element.applyForce(gravity);
       element.update();
       element.draw();
-  
-      if (element.position.x < 0) {
-        element.position.x = 0;
-        element.velocity.x *= -1;
-      } else if (element.position.x > width) {
-        element.position.x = width;
-        element.velocity.x *= -1;
-      }
+
       if (element.position.y < 0) {
         element.position.y = 0;
         element.velocity.y *= -1; 

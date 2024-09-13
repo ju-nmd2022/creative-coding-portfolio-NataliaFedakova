@@ -20,8 +20,8 @@ class Particle {
         stroke(random(125), random(200), random(205), random(100, 200));
         strokeWeight(2);
         rect(this.position.x, this.position.y, this.size, this.size);
-    }
-}
+    } 
+} 
 
 let ellipses = [];
 let particles = [];

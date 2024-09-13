@@ -23,7 +23,7 @@ class Particle {
 
 let particles = [];
 
-function setup() { 
+function setup() {  
     createCanvas(600, 600);
 }
 
