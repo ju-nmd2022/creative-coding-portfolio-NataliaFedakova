@@ -1,5 +1,10 @@
 [
   {
+    "file": "experiments/sound.js",
+    "name": "Recreation of an artwork by Peter Saville",
+    "description": "Click on the page to start."
+  },
+  {
     "file": "experiments/flowfields.js",
     "name": "Recreation of an artwork by Tyler Hobb",
     "description": "This piece is a recreation of Tyler Hobb's artwork using flowfield."
